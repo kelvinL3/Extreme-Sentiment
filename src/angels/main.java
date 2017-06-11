@@ -398,12 +398,18 @@ public class main {
         try {
 			client.sendMessage(
 			        "admin@bleak.io",
-			        "gpranay4@gmail.com",
-			        "Analysis as requested",
-			        x,"");
+			        "19083427522@tmomail.net",
+			        "ExtremeSentiment - Advocacy Analysis",
+			        x,x);
 		} catch (SparkPostException e) {
 			System.err.println("Error in sending email!");
 			// TODO Auto-generated catch block
+		}
+        try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
 	}
